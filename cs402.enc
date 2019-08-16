@@ -1,0 +1,12 @@
+lst=[]
+n=int(input("enter no of elements"))
+for i in range(0,n):
+    ele=int(input())
+    lst.append(ele)
+
+print(lst)
+for i in lst:
+    nlst=[]
+    if (i%2==0):
+        nlst.append(i)
+        print(nlst)
